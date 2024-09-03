@@ -25,5 +25,6 @@ header_pages:
   - navigation/about.md
   - README4YML.md
   - navigation/setup.md
+  - navigation/frontend.md
 
 
