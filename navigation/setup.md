@@ -4,9 +4,5 @@ title: Setup
 permalink: /setup/
 ---
 
-## Creator of Student 2025 
-
-Hi, my name is Soumini. I'm a sophomore at Del Norte High School. I plan on going into medicine.
-
-### Difficulties
-I had trouble doing... 
+## Difficulties
+I had trouble downloading python, ruby, and other bundles. I also had trouble setting up my about me page.
