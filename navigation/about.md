@@ -8,7 +8,6 @@ permalink: /about/
 
 <html>
 
-<img src="" alt="description">
 
 <center>
 Hi, my name is Soumini. I'm a sophomore at Del Norte High School. I plan on going into medicine. Please do not cough or sneeze in my face(or anyone else's for that matter), it's basic hygiene.
