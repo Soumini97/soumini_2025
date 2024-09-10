@@ -12,7 +12,7 @@ Hi, my name is Soumini. I'm a sophomore at Del Norte High School. I plan on goin
 
 <p>Some things I like to do in my free time are read and paint.</p>
 
-<p>These are all my hopes and dreams:</p>
+<p>These are all my hopes and dreams: 😂 </p>
 <img src="{{site.baseurl}}/images/duck.png" alt="duck"><br><br>
 
 # Ancestry
