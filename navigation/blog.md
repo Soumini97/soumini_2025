@@ -5,4 +5,13 @@ search_exclude: true
 permalink: /blogs/
 ---
 
-Hi, this is Soumini. This weekend I celebrated my birthday with friends and went bowling. And cleaned up 50 million ants in my kitchen by using a leaf blower to shove them out the backyard. 
+Use this script to add comments to your blog posts manually
+<script src="https://utteranc.es/client.js"
+        repo="nighthawkcoders/portfolio_2025"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+-->
