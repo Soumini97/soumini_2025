@@ -190,5 +190,18 @@ hide: true
 ## Intro
 My journey starts here. Hi my name is Soumini.
 
+<html>
+   <a href="https://soumini97.github.io/soumini_2025/emoji/" target="_blank"
+       style="display: inline-block; background-color: rgb(135, 206, 250); color: white; padding: 10px 20px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px;">
+       Emojis Notebook
+    </a>
+
+<a href="{{site.baseurl}}/snake/">
+<button>Snake Game</button>
+</a>
+
+
+</html>
+
 
     
