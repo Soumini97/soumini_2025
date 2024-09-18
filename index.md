@@ -191,17 +191,46 @@ hide: true
 My journey starts here. Hi my name is Soumini.
 
 <html>
+
+<center>
    <a href="https://soumini97.github.io/soumini_2025/emoji/" target="_blank"
-       style="display: inline-block; background-color: rgb(135, 206, 250); color: white; padding: 10px 20px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px;">
+       style="display: inline-block; background-color: rgb(135, 206, 250); color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px;">
        Emojis Notebook
-    </a>
+    </a><br><br>
 
-<a href="{{site.baseurl}}/snake/">
-<button>Snake Game</button>
-</a>
+<a href="{{site.baseurl}}/snake/"
+   style="display: inline-block; background-color: rgb(135, 206, 250); color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px; border: none;">
+    <button style="background: none; border: none; color: inherit; font: inherit; cursor: pointer; padding: 0; margin: 0;">
+        Snake Game
+    </button>
+</a><br><br>
+
+<a href="{{site.baseurl}}/calculator/"
+   style="display: inline-block; background-color: rgb(135, 206, 250); color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px; border: none;">
+    <button style="background: none; border: none; color: inherit; font: inherit; cursor: pointer; padding: 0; margin: 0;">
+        Calculator
+    </button></a>
+    <br><br>
+
+<a href="{{site.baseurl}}/notebooks/"
+   style="display: inline-block; background-color: rgb(135, 206, 250); color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px; border: none;">
+    <button style="background: none; border: none; color: inherit; font: inherit; cursor: pointer; padding: 0; margin: 0;">
+        Jupyter Notebooks hacks
+    </button></a><br><br>
 
 
-</html>
+<a href="{{site.baseurl}}/cookie/"
+   style="display: inline-block; background-color: rgb(135, 206, 250); color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px; border: none;">
+    <button style="background: none; border: none; color: inherit; font: inherit; cursor: pointer; padding: 0; margin: 0;">
+      Cookie Clicker Game
+    </button>
+</a><br><br>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1KU8v6XTyxL0ojV695MGVm?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+
+<center>
+
 
 
     

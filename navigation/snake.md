@@ -3,7 +3,6 @@ layout: page
 title: Snake
 permalink: /snake/
 ---
-
 <style>
     body{
     }
@@ -62,13 +61,13 @@ permalink: /snake/
     <div class="container bg-secondary" style="text-align:center;">
         <!-- Main Menu -->
         <div id="menu" class="py-4 text-light">
-            <p>Welcome to Snake, press <span style="background-color: #FFFFFF; color: #000000">space</span> to begin</p>
+            <p>Welcome to Snake, press <span style="background-color: #FFFFFF; color: #95D7AE">space</span> to begin</p>
             <a id="new_game" class="link-alert">new game</a>
             <a id="setting_menu" class="link-alert">settings</a>
         </div>
         <!-- Game Over -->
         <div id="gameover" class="py-4 text-light">
-            <p>Game Over, press <span style="background-color: #FFFFFF; color: #000000">space</span> to try again</p>
+            <p>Game Over, press <span style="background-color: #FFFFFF; color: #904E55">space</span> to try again</p>
             <a id="new_game1" class="link-alert">new game</a>
             <a id="setting_menu1" class="link-alert">settings</a>
         </div>
@@ -76,7 +75,7 @@ permalink: /snake/
         <canvas id="snake" class="wrap" width="320" height="320" tabindex="1"></canvas>
         <!-- Settings Screen -->
         <div id="setting" class="py-4 text-light">
-            <p>Settings Screen, press <span style="background-color: #FFFFFF; color: #000000">space</span> to go back to playing</p>
+            <p>Settings Screen, press <span style="background-color: #95D7AE; color: #95D7AE">space</span> to go back to playing</p>
             <a id="new_game2" class="link-alert">new game</a>
             <br>
             <p>Speed:
@@ -236,8 +235,7 @@ permalink: /snake/
                     }
                 }
             }
-3:18
-// Snake vs Snake checker
+            // Snake vs Snake checker
             for(let i = 1; i < snake.length; i++){
                 // Game over test
                 if (snake[0].x === snake[i].x && snake[0].y === snake[i].y){
@@ -263,7 +261,8 @@ permalink: /snake/
             // Paint food
             activeDot(food.x, food.y);
             // Debug
-            //document.getElementById("debug").innerHTML = snake_dir + " " + snake_next_dir + " " + snake[0].x + " " + snake[0].y;
+            //document.getElementById("debug").innerHTML = snake_dir + " " + snake_next_dir + " " + snake[0].x + " " +
+            snake[0].y;
             // Recursive call after speed delay, déjà vu
             setTimeout(mainLoop, snake_speed);
         }
@@ -349,8 +348,8 @@ permalink: /snake/
         /////////////////////////////////////////////////////////////
         let setWall = function(wall_value){
             wall = wall_value;
-            if(wall === 0){screen_snake.style.borderColor = "#606060";}
-            if(wall === 1){screen_snake.style.borderColor = "#FFFFFF";}
+            if(wall === 0){screen_snake.style.borderColor = "#904E55";}
+            if(wall === 1){screen_snake.style.borderColor = "#904E55";}
         }
     })();
 </script>
