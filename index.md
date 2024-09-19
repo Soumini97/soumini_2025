@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Student Home 
+title: Soumini's Page
 description: Home Page
 image: /images/mario_animation.png
 hide: true
@@ -191,6 +191,8 @@ hide: true
 My journey starts here. Hi my name is Soumini.
 
 <html>
+<img src="https://images.ctfassets.net/o78em1y1w4i4/LHN0F94cNFCx1drEcfcsY/984e632abf38018f2a6ab22c4b61fdc6/teaser-book-with-heart-pages.jpg?fm=webp&w=1160&q=75" alt="Book" width="600" height="400" title="books" />
+<p>I'm a huge bookworm. Me + Book + Quiet = Perfect Day</p>
 
 <center>
    <a href="https://soumini97.github.io/soumini_2025/emoji/" target="_blank"
@@ -227,6 +229,8 @@ My journey starts here. Hi my name is Soumini.
 </a><br><br>
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1KU8v6XTyxL0ojV695MGVm?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+
 
 
 <center>
