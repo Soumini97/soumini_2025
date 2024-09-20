@@ -190,11 +190,12 @@ hide: true
 ## Intro
 My journey starts here. Hi my name is Soumini.
 
+<center>
 <html>
 <img src="https://images.ctfassets.net/o78em1y1w4i4/LHN0F94cNFCx1drEcfcsY/984e632abf38018f2a6ab22c4b61fdc6/teaser-book-with-heart-pages.jpg?fm=webp&w=1160&q=75" alt="Book" width="600" height="400" title="books" />
 <p>I'm a huge bookworm. Me + Book + Quiet = Perfect Day</p>
 
-<center>
+
    <a href="https://soumini97.github.io/soumini_2025/emoji/" target="_blank"
        style="display: inline-block; background-color: rgb(135, 206, 250); color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px;">
        Emojis Notebook
@@ -228,13 +229,121 @@ My journey starts here. Hi my name is Soumini.
     </button>
 </a><br><br>
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1KU8v6XTyxL0ojV695MGVm?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<a href="{{site.baseurl}}/guessnumber/"
+   style="display: inline-block; background-color: rgb(135, 206, 250); color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px; border: none;">
+    <button style="background: none; border: none; color: inherit; font: inherit; cursor: pointer; padding: 0; margin: 0;">
+      Guess the Number Game
+    </button>
+</a><br><br>
 
+<a href="{{site.baseurl}}/bookrecs/"
+   style="display: inline-block; background-color: rgb(135, 206, 250); color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px; border: none;">
+    <button style="background: none; border: none; color: inherit; font: inherit; cursor: pointer; padding: 0; margin: 0;">
+      Book Recs
+    </button>
+</a><br><br>
+    <style>
+        /* Button style */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .dropdown-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        .dropdown-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+<body>
 
-
+<div class="dropdown">
+    <button class="dropdown-button">Dropdown</button>
+    <div class="dropdown-content">
+        <a href="https://www.barnesandnoble.com/">Barnes and Nobles</a>
+        <a href="https://en.wikipedia.org/wiki/List_of_serial_killers_in_the_United_States">List of Serial Killers in the US</a>
+        <a href="https://www.notion.so/">Student Planner</a>
+    </div>
+</div>
 
 <center>
+    <script>
+        var obj = {
+            name: "Soumini",
+            age: 14,
+            currentClasses: ["AP CSP", "AP Chemistry", "AP English Seminar", "AP Calc AB", "World History", "Honors Medical Interventions"],
+            interests: ["reading", "writing", "painting", "solving math problems"],
+            siblings: 1,  // Changed to number for math operations
+            pets: "giant teddy bear"
+        };
+        // Manipulate the arrays
+        // Adding a class
+        obj.currentClasses.push("Biology");
+        // Removing an interest
+        obj.interests.splice(obj.interests.indexOf("painting"), 1);
+        // Log the entire object
+        console.log("Full object:", obj);
+        // Log the specific changed keys
+        console.log("Current Classes:", obj.currentClasses);
+        console.log("Interests:", obj.interests);
+        // Performing mathematical operations
+        var yearsUntilAdult = 18 - obj.age; // Subtracting age from 18
+        console.log(`Years until adulthood: ${yearsUntilAdult}`);
+        var totalClasses = obj.currentClasses.length; // Number of current classes
+        console.log(`Total classes: ${totalClasses}`);
+        var petsCount = obj.siblings + 1; // Assuming 1 pet (change if needed)
+        console.log(`Total pets (including 1 pet): ${petsCount}`);
+        // Performing division
+        var classesPerInterest = totalClasses / obj.interests.length;
+        console.log(`Classes per interest: ${classesPerInterest.toFixed(2)}`);
+        // Modulus operation (totalClasses % siblings)
+        var classesModulusSiblings = totalClasses % obj.siblings;
+        console.log(`Remainder of classes when divided by siblings: ${classesModulusSiblings}`);
+        // Using typeof to determine types of fields
+        console.log(`Type of name: ${typeof obj.name}`); // String
+        console.log(`Type of age: ${typeof obj.age}`); // Number
+        console.log(`Type of siblings: ${typeof obj.siblings}`); // Number
+        console.log(`Type of currentClasses: ${typeof obj.currentClasses}`); // Object (arrays are objects)
+    </script>
 
+<script>
+  var a = 5;
+  var b = 10;
+  if (a > b) {
+    console.log("a is greater");
+  } else if (a < b) {
+    console.log("b is greater");
+  } else {
+    console.log("both are equal");
+  }
+  // Correcting the mathematical operations
+  console.log(a + b);  // Adds a and b
+  console.log(a - b);  // Subtracts b from a
+  console.log(a * b);  // Multiplies a and b
+  console.log(a / b);  // Divides a by b
+</script>
 
-
-    
