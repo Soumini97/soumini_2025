@@ -196,59 +196,41 @@ My journey starts here. Hi my name is Soumini.
 <p>I'm a huge bookworm. Me + Book + Quiet = Perfect Day</p>
 
 
-   <a href="https://soumini97.github.io/soumini_2025/emoji/" target="_blank"
-       style="display: inline-block; background-color: rgb(135, 206, 250); color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px;">
+   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+    <a href="https://soumini97.github.io/soumini_2025/emoji/" target="_blank"
+       style="background-color: rgb(135, 206, 250); color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px;">
        Emojis Notebook
-    </a><br><br>
-
-<a href="{{site.baseurl}}/snake/"
-   style="display: inline-block; background-color: rgb(135, 206, 250); color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px; border: none;">
-    <button style="background: none; border: none; color: inherit; font: inherit; cursor: pointer; padding: 0; margin: 0;">
+    </a>
+    <a href="{{site.baseurl}}/snake/"
+       style="background-color: rgb(135, 206, 250); color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px;">
         Snake Game
-    </button>
-</a><br><br>
-
-<a href="{{site.baseurl}}/calculator/"
-   style="display: inline-block; background-color: rgb(135, 206, 250); color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px; border: none;">
-    <button style="background: none; border: none; color: inherit; font: inherit; cursor: pointer; padding: 0; margin: 0;">
+    </a>
+    <a href="{{site.baseurl}}/calculator/"
+       style="background-color: rgb(135, 206, 250); color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px;">
         Calculator
-    </button></a>
-    <br><br>
-
-<a href="{{site.baseurl}}/notebooks/"
-   style="display: inline-block; background-color: rgb(135, 206, 250); color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px; border: none;">
-    <button style="background: none; border: none; color: inherit; font: inherit; cursor: pointer; padding: 0; margin: 0;">
+    </a>
+    <a href="{{site.baseurl}}/notebooks/"
+       style="background-color: rgb(135, 206, 250); color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px;">
         Jupyter Notebooks hacks
-    </button></a><br><br>
-
-
-<a href="{{site.baseurl}}/cookie/"
-   style="display: inline-block; background-color: rgb(135, 206, 250); color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px; border: none;">
-    <button style="background: none; border: none; color: inherit; font: inherit; cursor: pointer; padding: 0; margin: 0;">
-      Cookie Clicker Game
-    </button>
-</a><br><br>
-
-<a href="{{site.baseurl}}/guessnumber/"
-   style="display: inline-block; background-color: rgb(135, 206, 250); color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px; border: none;">
-    <button style="background: none; border: none; color: inherit; font: inherit; cursor: pointer; padding: 0; margin: 0;">
-      Guess the Number Game
-    </button>
-</a><br><br>
-
-<a href="{{site.baseurl}}/bookrecs/"
-   style="display: inline-block; background-color: rgb(135, 206, 250); color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px; border: none;">
-    <button style="background: none; border: none; color: inherit; font: inherit; cursor: pointer; padding: 0; margin: 0;">
-      Book Recs
-    </button>
-</a><br><br>
-
-<a href="{{site.baseurl}}/itunesapi/"
-   style="display: inline-block; background-color: rgb(135, 206, 250); color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px; border: none;">
-    <button style="background: none; border: none; color: inherit; font: inherit; cursor: pointer; padding: 0; margin: 0;">
-      Itunes API
-    </button>
-</a><br><br>
+    </a>
+    <a href="{{site.baseurl}}/cookie/"
+       style="background-color: rgb(135, 206, 250); color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px;">
+        Cookie Clicker Game
+    </a>
+    <a href="{{site.baseurl}}/guessnumber/"
+       style="background-color: rgb(135, 206, 250); color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px;">
+        Guess the Number Game
+    </a>
+    <a href="{{site.baseurl}}/bookrecs/"
+       style="background-color: rgb(135, 206, 250); color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px;">
+        Book Recs
+    </a>
+    <a href="{{site.baseurl}}/itunesapi/"
+       style="background-color: rgb(135, 206, 250); color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px;">
+        Itunes API
+    </a><br><br>
+    
+</div>
     <style>
         /* Button style */
         .dropdown {
