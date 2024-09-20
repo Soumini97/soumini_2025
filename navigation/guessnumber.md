@@ -21,23 +21,18 @@ permalink: /guessnumber/
     <button id="submitGuess">Submit Guess</button>
     <div id="result"></div>
     <button id="resetGame" style="display:none;">Play Again</button>
-
     <script>
         let randomNumber = Math.floor(Math.random() * 100) + 1;
         let attempts = 0;
-
         const resultDiv = document.getElementById('result');
         const guessInput = document.getElementById('guessInput');
         const submitGuessButton = document.getElementById('submitGuess');
         const resetButton = document.getElementById('resetGame');
-
         submitGuessButton.addEventListener('click', checkGuess);
         resetButton.addEventListener('click', resetGame);
-
         function checkGuess() {
             const userGuess = Number(guessInput.value);
             attempts++;
-
             if (userGuess < 1 || userGuess > 100) {
                 resultDiv.textContent = 'Please enter a number between 1 and 100.';
             } else if (userGuess < randomNumber) {
@@ -50,7 +45,6 @@ permalink: /guessnumber/
                 resetButton.style.display = 'block';
             }
         }
-
         function resetGame() {
             randomNumber = Math.floor(Math.random() * 100) + 1;
             attempts = 0;
