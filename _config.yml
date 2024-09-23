@@ -26,5 +26,9 @@ header_pages:
   - README4YML.md
   - navigation/setup.md
   - navigation/frontend.md
+  - navigation/calculator.md
+  - navigation/cookie.md
+  - navigation/guessnumber.md
+  - navigation/snake.md 
 
 
