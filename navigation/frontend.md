@@ -10,7 +10,7 @@ permalink: /frontend/
 <div>
 <center>
     <!-- notice how tags can be put INSIDE eachother -->
-    <p>Some links</p><br><br>
+    <p>Some fun links</p><br><br>
     <button onclick="window.location.href='https://poway.instructure.com';" >Canvas</button><br><br>
     <a href="https://www.spanishdict.com/translate/la%20m%C3%BAsica%20cubana" target="_blank">
     <button>Spanish Dictionary</button><br><br>
