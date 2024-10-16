@@ -195,59 +195,41 @@ My journey starts here. Hi my name is Soumini.
 <img src="https://images.ctfassets.net/o78em1y1w4i4/LHN0F94cNFCx1drEcfcsY/984e632abf38018f2a6ab22c4b61fdc6/teaser-book-with-heart-pages.jpg?fm=webp&w=1160&q=75" alt="Book" width="600" height="400" title="books" />
 <p>I'm a huge bookworm. Me + Book + Quiet = Perfect Day</p>
 
-<div style="border: 2px solid #001f3f; padding: 20px; max-width: 800px; margin: 0 auto; background-color: #001f3f;">
-    <h2 style="text-align: center; color: white;">Sprint 1 Accomplishments</h2>
-    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
-        <!-- Individual Button Boxes -->
-        <div style="border: 1px solid #87CEFA; padding: 20px; border-radius: 5px; background-color: #87CEFA;">
-            <a href="https://soumini97.github.io/soumini_2025/emoji/" target="_blank"
-               style="color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px;">
-               Emojis Notebook
-            </a>
-        </div>
-        <div style="border: 1px solid #87CEFA; padding: 20px; border-radius: 5px; background-color: #87CEFA;">
-            <a href="{{site.baseurl}}/snake/"
-               style="color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px;">
-                Snake Game
-            </a>
-        </div>
-        <div style="border: 1px solid #87CEFA; padding: 20px; border-radius: 5px; background-color: #87CEFA;">
-            <a href="{{site.baseurl}}/calculator/"
-               style="color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px;">
-                Calculator
-            </a>
-        </div>
-        <div style="border: 1px solid #87CEFA; padding: 20px; border-radius: 5px; background-color: #87CEFA;">
-            <a href="{{site.baseurl}}/notebooks/"
-               style="color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px;">
-                Jupyter Notebooks hacks
-            </a>
-        </div>
-        <div style="border: 1px solid #87CEFA; padding: 20px; border-radius: 5px; background-color: #87CEFA;">
-            <a href="{{site.baseurl}}/cookie/"
-               style="color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px;">
-                Cookie Clicker Game
-            </a>
-        </div>
-        <div style="border: 1px solid #87CEFA; padding: 20px; border-radius: 5px; background-color: #87CEFA;">
-            <a href="{{site.baseurl}}/guessnumber/"
-               style="color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px;">
-                Guess the Number Game
-            </a>
-        </div>
-        <div style="border: 1px solid #87CEFA; padding: 20px; border-radius: 5px; background-color: #87CEFA;">
-            <a href="{{site.baseurl}}/bookrecs/"
-               style="color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px;">
-                Book Recs
-            </a>
-        </div>
-        <div style="border: 1px solid #87CEFA; padding: 20px; border-radius: 5px; background-color: #87CEFA;">
-            <a href="{{site.baseurl}}/itunesapi/"
-               style="color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px;">
-                Itunes API
-            </a>
-        </div>
-    </div>
+
+   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+    <a href="https://soumini97.github.io/soumini_2025/emoji/" target="_blank"
+       style="background-color: rgb(135, 206, 250); color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px;">
+       Emojis Notebook
+    </a>
+    <a href="{{site.baseurl}}/snake/"
+       style="background-color: rgb(135, 206, 250); color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px;">
+        Snake Game
+    </a>
+    <a href="{{site.baseurl}}/calculator/"
+       style="background-color: rgb(135, 206, 250); color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px;">
+        Calculator
+    </a>
+    <a href="{{site.baseurl}}/notebooks/"
+       style="background-color: rgb(135, 206, 250); color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px;">
+        Jupyter Notebooks hacks
+    </a>
+    <a href="{{site.baseurl}}/cookie/"
+       style="background-color: rgb(135, 206, 250); color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px;">
+        Cookie Clicker Game
+    </a>
+    <a href="{{site.baseurl}}/guessnumber/"
+       style="background-color: rgb(135, 206, 250); color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px;">
+        Guess the Number Game
+    </a>
+    <a href="{{site.baseurl}}/bookrecs/"
+       style="background-color: rgb(135, 206, 250); color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px;">
+        Book Recs
+    </a>
+    <a href="{{site.baseurl}}/itunesapi/"
+       style="background-color: rgb(135, 206, 250); color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px;">
+        Itunes API
+    </a><br><br>
+    
 </div>
     <style>
         /* Button style */
@@ -296,10 +278,6 @@ My journey starts here. Hi my name is Soumini.
         <a href="https://www.notion.so/">Student Planner</a>
     </div>
 </div>
-
-
-
-
 
 <center>
     <script>
