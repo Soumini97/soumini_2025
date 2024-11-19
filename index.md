@@ -196,7 +196,11 @@ My journey starts here. Hi my name is Soumini.
 <p>I'm a huge bookworm. Me + Book + Quiet = Perfect Day</p>
 
 
-   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+   <div style="background-color: #124E78 ; padding: 20px; border-radius: 8px; text-align: center;">
+
+<span style="color: white;">Sprint 1 Accomplishments</span>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
     <a href="https://soumini97.github.io/soumini_2025/emoji/" target="_blank"
        style="background-color: rgb(135, 206, 250); color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px;">
        Emojis Notebook
@@ -228,8 +232,41 @@ My journey starts here. Hi my name is Soumini.
     <a href="{{site.baseurl}}/itunesapi/"
        style="background-color: rgb(135, 206, 250); color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px;">
         Itunes API
-    </a><br><br>
+    </a>
+</div>
+
+<div style="background-color: #124E78 ; padding: 20px; border-radius: 8px; text-align: center;">
+<span style="color: white;">Sprint 2 Accomplishments</span>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+    <a href="{{site.baseurl}}/big-idea-3-summary/"
+       style="background-color: rgb(135, 206, 250); color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px;">
+        Big Idea 3 Summary
+    </a>
+    <a href="{{site.baseurl}}/sprint-2-team-blog/"
+       style="background-color: rgb(135, 206, 250); color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px;">
+        Team Blog
+    </a>
+    <a href="{{site.baseurl}}/sprint-2-reflection/"
+       style="background-color: rgb(135, 206, 250); color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px;">
+        Reflection
+    </a>
+</div>
     
+
+<div style="background-color: #124E78 ; padding: 20px; border-radius: 8px; text-align: center;">
+<span style="color: white;">Sprint 3 Accomplishments</span>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+    <a href="{{site.baseurl}}/sprint-3-reflection/"
+       style="background-color: rgb(135, 206, 250); color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px;">
+        Sprint 3 Reflection
+    </a>
+    <a href="{{site.baseurl}}/college-board-multiple-choice-reflection/"
+       style="background-color: rgb(135, 206, 250); color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px;">
+        College Board MCQ Practice
+    </a>
+</div>
 </div>
     <style>
         /* Button style */
@@ -278,6 +315,22 @@ My journey starts here. Hi my name is Soumini.
         <a href="https://www.notion.so/">Student Planner</a>
     </div>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <center>
     <script>
