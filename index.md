@@ -262,7 +262,7 @@ My journey starts here. Hi my name is Soumini.
        style="background-color: rgb(135, 206, 250); color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px;">
         Sprint 3 Reflection
     </a>
-    <a href="{{site.baseurl}}/college-board-multiple-choice-reflection/"
+    <a href="{{site.baseurl}}/cbmcq2018/"
        style="background-color: rgb(135, 206, 250); color: white; padding: 20px 40px; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px;">
         College Board MCQ Practice
     </a>
