@@ -88,7 +88,7 @@ def get_comments_for_book(book_id=None):
 
 3) **Discuss methods in "class"  you created to work with columns (create, read, update, delete)**: 
  **Create:**
- I created a new instance of the ```Comments``` class, populate it with data (attributes that correspond to columns in the database), and then add it to the session to be committed.
+ I created a new instance of the ```Comments``` class, populated it with data (attributes that correspond to columns in the database), and then add it to the session to be committed.
  ```
  def create(self):
         # Check if the comment already exists for this user and book
@@ -229,104 +229,74 @@ def manage_comments():
             db.session.rollback()
             return jsonify({'error': 'Internal Server Error'}), 500
 
-PUT and DELETE for Comments (Route: /api/comments/<comment_id>):
-@bookreview_api.route('/comments/<int:comment_id>', methods=['PUT', 'DELETE'])
-def update_delete_comment(comment_id):
-    comment = Comments.query.get(comment_id)
+    PUT and DELETE for Comments (Route: /api/comments/<comment_id>):
+    @bookreview_api.route('/comments/<int:comment_id>', methods=['PUT', 'DELETE'])
+    def update_delete_comment(comment_id):
+        comment = Comments.query.get(comment_id)
 
-    if not comment:
-        return jsonify({'error': 'Comment not found'}), 404
+        if not comment:
+            return jsonify({'error': 'Comment not found'}), 404
 
-    if request.method == 'PUT':
-        try:
-            data = request.get_json()
-            comment_text = data.get('comment_text')
+        if request.method == 'PUT':
+            try:
+                data = request.get_json()
+                comment_text = data.get('comment_text')
 
-            if not comment_text:
-                return jsonify({'error': 'Comment text is required'}), 400
+                if not comment_text:
+                    return jsonify({'error': 'Comment text is required'}), 400
 
-            comment.comment_text = comment_text
-            db.session.commit()
+                comment.comment_text = comment_text
+                db.session.commit()
 
-            return jsonify({
-                'id': comment.id,
-                'book_id': comment.book_id,
-                'user_id': comment.user_id,
-                'comment_text': comment.comment_text
-            })
+                return jsonify({
+                    'id': comment.id,
+                    'book_id': comment.book_id,
+                    'user_id': comment.user_id,
+                    'comment_text': comment.comment_text
+                })
 
-        except Exception as e:
-            print(f"Error while updating comment: {e}")
-            db.session.rollback()
-            return jsonify({'error': 'Internal Server Error'}), 500
+            except Exception as e:
+                print(f"Error while updating comment: {e}")
+                db.session.rollback()
+                return jsonify({'error': 'Internal Server Error'}), 500
 
-    elif request.method == 'DELETE':
-        try:
-            db.session.delete(comment)
-            db.session.commit()
-            return jsonify({'message': 'Comment deleted successfully'}), 200
-        except Exception as e:
-            print(f"Error while deleting comment: {e}")
-            db.session.rollback()
-            return jsonify({'error': 'Internal Server Error'}), 500
+        elif request.method == 'DELETE':
+            try:
+                db.session.delete(comment)
+                db.session.commit()
+                return jsonify({'message': 'Comment deleted successfully'}), 200
+            except Exception as e:
+                print(f"Error while deleting comment: {e}")
+                db.session.rollback()
+                return jsonify({'error': 'Internal Server Error'}), 500
 ```
 
-2) Discuss a method/procedure in class that contains sequencing, selection, and iteration.
-The restore method in the Comments class contains sequencing as it processes each comment in the input data sequentially. It uses selection to check if a comment already exists and iteration to loop through all the comments for updating or creating new ones based on conditions.
-```
-@staticmethod
-    def restore(data):
-        restored_comments = {}
+2) Discuss a method/procedure in class that contains sequencing, selection, and iteration.<br>
+    1) **Sequencing**: Each function follows a structured sequence<br>
+        1) Recieves reqeuest to add or recieve comment data<br>
+        2) Validates request<br>
+        3) Query the database to find comments associated with the book<br>
+        4) Return a response with comment data<br><br>
+    2) **Conditionals**: <br>
+        1) GET: must have a valid ```book_id``` to get comments for that book<br>
+        2) POST: must have valid ```user_id```,```book_id```, and some ```comment_text```<br>
+        3) PUT: must have a proper ```comment_id```<br>
+        4) DELETE: must have a proper ```comment_id```<br><br>
+    3) **Iteration**: used in the get method for comments. For comments, it extracts comment data for each comment associated with a specific book<br>
+        Comments: 
+        ```
+        return [{
+            "id": comment.id,
+            "book_id": comment.book_id,
+            "user_id": comment.user_id,
+            "comment_text": comment.comment_text
+        } for comment in comments_query]
+        ```
 
-        for comment_data in data:  # Iterate through each comment in the input data
-            # Remove 'id' if it's present in the input data, as it's auto-generated by the database
-            comment_data.pop('id', None)
+       
 
-            # Check if the comment already exists based on book_id and user_id
-            existing_comment = Comments.query.filter_by(
-                book_id=comment_data.get('book_id'),
-                user_id=comment_data.get('user_id'),
-                comment_text=comment_data.get('comment_text')
-            ).first()
 
-            if existing_comment:
-                # Update the existing comment with new data
-                for key, value in comment_data.items():
-                    setattr(existing_comment, key, value)
-
-                try:
-                    db.session.commit()
-                    restored_comments[existing_comment.id] = {
-                        'status': 'updated',
-                        'comment': existing_comment.read()
-                    }
-                except Exception as e:
-                    db.session.rollback()
-                    restored_comments[existing_comment.id] = {
-                        'status': 'error',
-                        'message': str(e)
-                    }
-            else:
-                # Create a new comment
-                new_comment = Comments(**comment_data)
-                db.session.add(new_comment)
-                try:
-                    db.session.commit()
-                    restored_comments[new_comment.id] = {
-                        'status': 'created',
-                        'comment': new_comment.read()
-                    }
-                except Exception as e:
-                    db.session.rollback()
-                    restored_comments[new_comment.id] = {
-                        'status': 'error',
-                        'message': str(e)
-                    }  # <-- Fixed the missing closing parenthesis here
-
-        return restored_comments
-```
-
-3) Discuss the parameters (body of request) and return type (jasonify) of the function.
+3) **Discuss the parameters (body of request) and return type (jasonify) of the function.**
 
 The server is handling a request to retrieve comments, the parameters are book id, user id, and comment text. The function returns a JSON response, using jsonify, which contains either the success message with the comment data or an error message with a relevant status code.
 ```
@@ -349,6 +319,7 @@ def manage_comments():
 ## Call to Algorithm request.  Show the definition of code block to make a request.
 1) **Discuss the call/request to the method with Algorithm (fetch to endpoint).**
 The server is making a request to obtain data from the endpoint. In the above code, the server makes a request to retrieve from the /api/comments endpoint, which contains all the comments in the backend.
+
 ```
 @bookreview_api.route('/comments', methods=['GET', 'POST'])
 def manage_comments():
@@ -364,6 +335,7 @@ def manage_comments():
         else:
             return jsonify({'message': 'No comments found for this book'}), 404
 ```
+
 
 2) **Discuss the return/response from the method with Algorithm (fetch) and how you handle data.** 
 The backend responds by returning all the comments associated with the book id in the parameters. Any comments with the book id in the parameters are returned, along with their book id and the user id that it was posted with. 
@@ -375,109 +347,10 @@ Adding an invalid book id will return an error message. Changing the book id to 
 <img src="{{site.baseurl}}/images/error.png" alt=Error>
 
 
-### Full code(Get, post, put, delete): 
+
+## Frontend code: 
 
 ```
-# Comments Route (GET, POST, PUT, DELETE)
-@bookreview_api.route('/comments', methods=['GET', 'POST'])
-def manage_comments():
-    if request.method == 'GET':
-        book_id = request.args.get('book_id')
-
-        if not book_id:
-            return jsonify({'error': 'Book ID is required'}), 400
-
-        comments = get_comments_for_book(book_id)
-        if comments:
-            return jsonify({'comments': comments})
-        else:
-            return jsonify({'message': 'No comments found for this book'}), 404
-
-    elif request.method == 'POST':
-        try:
-            data = request.get_json()
-
-            book_id = data.get('book_id')
-            user_id = data.get('user_id')
-            comment_text = data.get('comment_text')
-
-            if not book_id or not user_id or not comment_text:
-                return jsonify({'error': 'Missing required fields: book_id, user_id, or comment_text'}), 400
-
-            book = Book.query.get(book_id)
-            if not book:
-                return jsonify({'error': 'Book not found'}), 404
-
-            user = User.query.get(user_id)
-            if not user:
-                return jsonify({'error': 'User not found'}), 404
-
-            new_comment = Comments(
-                book_id=book_id,
-                user_id=user.id,
-                comment_text=comment_text
-            )
-
-            db.session.add(new_comment)
-            db.session.commit()
-
-            return jsonify({
-                'id': new_comment.id,
-                'book_id': new_comment.book_id,
-                'user_id': new_comment.user_id,
-                'comment_text': new_comment.comment_text
-            }), 201
-
-        except Exception as e:
-            print(f"Error while adding comment: {e}")
-            db.session.rollback()
-            return jsonify({'error': 'Internal Server Error'}), 500
-
-# PUT and DELETE for Comments (Route: /api/comments/<comment_id>)
-@bookreview_api.route('/comments/<int:comment_id>', methods=['PUT', 'DELETE'])
-def update_delete_comment(comment_id):
-    comment = Comments.query.get(comment_id)
-
-    if not comment:
-        return jsonify({'error': 'Comment not found'}), 404
-
-    if request.method == 'PUT':
-        try:
-            data = request.get_json()
-            comment_text = data.get('comment_text')
-
-            if not comment_text:
-                return jsonify({'error': 'Comment text is required'}), 400
-
-            comment.comment_text = comment_text
-            db.session.commit()
-
-            return jsonify({
-                'id': comment.id,
-                'book_id': comment.book_id,
-                'user_id': comment.user_id,
-                'comment_text': comment.comment_text
-            })
-
-        except Exception as e:
-            print(f"Error while updating comment: {e}")
-            db.session.rollback()
-            return jsonify({'error': 'Internal Server Error'}), 500
-
-    elif request.method == 'DELETE':
-        try:
-            db.session.delete(comment)
-            db.session.commit()
-            return jsonify({'message': 'Comment deleted successfully'}), 200
-        except Exception as e:
-            print(f"Error while deleting comment: {e}")
-            db.session.rollback()
-            return jsonify({'error': 'Internal Server Error'}), 500
-```
-
-Frontend code: 
-```
-  // Add comment function
   function addComment() {
     const commentInput = document.getElementById('commentInput');
     const commentText = commentInput.value.trim();
