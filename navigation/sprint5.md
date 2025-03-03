@@ -430,3 +430,37 @@ Adding an invalid book id will return an error message. Changing the book id to 
       });
   }
 ```
+
+## Discuss a method/procedure in class that contains sequencing, selection, and iteration.
+  1) **Sequencing**: Each function follows a structured sequence
+
+    1) Recieves reqeuest to add or recieve comment data
+
+    2) Validates request
+
+    3) Query the database to find comments associated with the book
+
+    4) Return a response with comment data
+
+
+    2) **Conditionals**: 
+
+        1) GET: must have a valid ```book_id``` to get comments for that book
+
+        2) POST: must have valid ```user_id```,```book_id```, and some ```comment_text```
+
+        3) PUT: must have a proper ```comment_id```
+
+        4) DELETE: must have a proper ```comment_id```
+
+    3) **Iteration**: used in the get method for comments. For comments, it extracts comment data for each comment associated with a specific book
+    
+        Comments: 
+        ```
+        return [{
+            "id": comment.id,
+            "book_id": comment.book_id,
+            "user_id": comment.user_id,
+            "comment_text": comment.comment_text
+        } for comment in comments_query]
+        ```

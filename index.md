@@ -187,6 +187,8 @@ hide: true
 
 </script>
 
+
+
 ## Intro
 My journey starts here. Hi my name is Soumini.
 
@@ -252,7 +254,6 @@ My journey starts here. Hi my name is Soumini.
         Reflection
     </a>
 </div>
-    
 
 <div style="background-color: #124E78 ; padding: 20px; border-radius: 8px; text-align: center;">
 <span style="color: white;">Sprint 3 Accomplishments</span>
