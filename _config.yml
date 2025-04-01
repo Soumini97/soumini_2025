@@ -21,11 +21,7 @@ plugins:
   - jekyll-remote-theme
 header_pages:
   - navigation/blog.md
-  - navigation/search.md
-  - navigation/about.md
-  - README4YML.md
   - navigation/setup.md
-  - navigation/frontend.md
   - navigation/calculator.md
   - navigation/cookie.md
   - navigation/guessnumber.md
