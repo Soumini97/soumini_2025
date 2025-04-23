@@ -4,6 +4,17 @@ title: Study Blog
 permalink: /apstudyblog/
 ---
 
+# MCQ Number 3
+<br>
+Many of the mistakes I made regarding the MCQ were mistakes made by lack of focus and a late night session. I understand that my problem with these questions was lack of focus and improper reading of the question, and to improve my MC score, I will be re-doing practice questions to familiarize myself with the format of the exam. <br>
+
+# Study Plan <br>
+**Week of April 21st**: Finish up to Unit 8 of Khan Academy AP CSP Course to familiarize and practice topics in areas of weakness <br>
+**Weekend of April 26th**: Re-take MCQ 1 to improve score <br>
+**Week of April 28th**: Review any incorrect questions from MCQ 1, understand the incorrect topics, finish Units 9-10 of AP CSP in Khan Academy. Final revision of CPT Project. <br>
+**Weekend of May 3rd**: Retake MCQ 2 to improve score. <br>
+**Week of May 5th-May 12th**: Review incorrect questions from MCQ 2 and understand the incorrect topics. Begin preparing for the FRQ by reviewing code and explaining code segments and their functionality, line by line. <br>
+**May 12th to Exam Day**: Last minute topics that need review + Final MCQ Check
 
   <style>
     body {
@@ -54,21 +65,10 @@ permalink: /apstudyblog/
 <html>
 
 
-# MCQ Number 3
-<br>
-Many of the mistakes I made regarding the MCQ were mistakes made by lack of focus and a late night session. I understand that my problem with these questions was lack of focus and improper reading of the question, and to improve my MC score, I will be re-doing practice questions to familiarize myself with the format of the exam. <br>
-
-# Study Plan <br>
-**Week of April 21st**: Finish up to Unit 8 of Khan Academy AP CSP Course to familiarize and practice topics in areas of weakness <br>
-**Weekend of April 26th**: Re-take MCQ 1 to improve score <br>
-**Week of April 28th**: Review any incorrect questions from MCQ 1, understand the incorrect topics, finish Units 9-10 of AP CSP in Khan Academy. Final revision of CPT Project. <br>
-**Weekend of May 3rd**: Retake MCQ 2 to improve score. <br>
-**Week of May 5th-May 12th**: Review incorrect questions from MCQ 2 and understand the incorrect topics. Begin preparing for the FRQ by reviewing code and explaining code segments and their functionality, line by line. <br>
-**May 12th to Exam Day**: Last minute topics that need review + Final MCQ Check
 
 
 <script src="https://utteranc.es/client.js"
-        repo="nighthawkcoders/soumini_2025"
+        repo="soumini97/soumini_2025"
         issue-term="title"
         label="blogpost-comment"
         theme="github-light"
