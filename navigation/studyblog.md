@@ -6,7 +6,7 @@ permalink: /apstudyblog/
 
 # MCQ Number 3
 <br>
-Many of the mistakes I made regarding the MCQ were mistakes made by lack of focus and a late night session. I understand that my problem with these questions was lack of focus and improper reading of the question, and to improve my MC score, I will be re-doing practice questions to familiarize myself with the format of the exam. <br>
+Many of the mistakes I made regarding the MCQ were mistakes made by lack of focus and a late night session. I understand that my problem with these questions was improper reading of the question and answer choices, and to improve my MC score, I will be re-doing practice questions to familiarize myself with the format of the exam. <br>
 
 # Study Plan <br>
 **Week of April 21st**: Finish up to Unit 8 of Khan Academy AP CSP Course to familiarize and practice topics in areas of weakness <br>
