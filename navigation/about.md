@@ -24,14 +24,14 @@ Hi, my name is Soumini. I'm a sophomore at Del Norte High School. I plan on goin
 </center>
 
 <script src="https://utteranc.es/client.js"
-        repo="nighthawkcoders/portfolio_2025"
+        repo="nighthawkcoders/soumini_2025"
         issue-term="title"
         label="blogpost-comment"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
--->
+
 
 
 
