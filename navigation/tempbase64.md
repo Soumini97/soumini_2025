@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Base64, Digital Imaging, Color Coding
-permalink: /cookie/
+permalink: /base64/
 ---
 ## Popcorn Hack Base 64
 <br>
