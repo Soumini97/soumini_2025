@@ -5,9 +5,11 @@ permalink: /final-review-md/
 ---
 # CSP Full Year Reflection – Soumini Kandula
 
-> “This is the culmination of everything I’ve learned this year—from JavaScript basics to full-stack engineering, from brainstorming with my team to presenting our final work at Night at the Museum.”
+> “Fun little culmination of everything I’ve learned this year, from JavaScript basics to full-stack engineering, from brainstorming with my team to presenting our final work at Night at the Museum.” - Soumini 
 
----
+
+## Key Interests & Coding Intersection:
+I am interested in pursuing scientific research and biotechnology. I am currently leading my iGEM team this year, which is an international genetic engineering competition. With this project, we're planning to engineer a bacterial circuit to control inflammation by detecting signs of inflammatory stress and produce an anti-inflammatory molecule in response. To do this project, we need proof of in-silico testing, which is basically computational modelling. I hope to use Machine Learning models and Python to complete my in-silico testing and model the effects of increased concentration of inflammatory stress on the bacterial circuit. 
 
 ## Trimester 3 – Final Sprint
 
@@ -39,7 +41,6 @@ permalink: /final-review-md/
   - ML Concepts: Multi-output regression, model training/testing
   - Operators: Mathematical expressions and boolean logic
 
----
 
 ### Book Journal – Personal Project
 - **Overview**: A full-stack book tracking app. Users can add books with title, author, summary, cover URL, and reactions.
@@ -81,7 +82,6 @@ permalink: /final-review-md/
   - Control Structures: Loops, if/else, error catching
   - Operators: Math and string manipulation
 
----
 
 ### Key CS Principles Mastered This Year
 - **Data Types**: Numbers, strings, booleans, arrays, JSON, SQLite tables  
@@ -93,13 +93,27 @@ permalink: /final-review-md/
 - **SDLC**: GitHub flow (fork, branch, PR, merge), testing  
 - **Retrospective Practices**: Demos, reviews, presenting, reflecting  
 
----
+### Credentials: 
+| Type        | Credential / Project Name           | Description |
+|-------------|-------------------------------------|-------------|
+| **Certificate** | Tools Basics | Proficiency with GitHub, terminal usage, and structured version control through Issues, PRs, and commits. |
+| **Certificate** | Full Stack Development | Connected frontend interfaces with backend Flask APIs using async fetch, managing CRUD operations with SQLite. |
+| **Certificate** | Data Analysis with Python | Applied Pandas, NumPy, and statistical models to predict heart disease risk using real health datasets. |
+| **Certificate** | API Development | Designed and tested APIs for book journal, trivia quiz, and health risk prediction using Postman. |
+| **Certificate** | Control Structures Mastery | Demonstrated iteration, conditionals, nested logic, and try/except blocks in Python and JS codebases. |
+| **Certificate** | Data Types and Structures | Utilized numbers, strings, arrays, booleans, JSON, and SQLite tables in multi-layered web applications. |
+| **NFT**     | Biotech Trivia Generator | Designed a dynamic quiz engine that pulls bias-free questions from Gemini via a custom API. Demonstrated prompt engineering and data parsing. |
+| **NFT**     | Heart Disease Risk Model | Created a hybrid ML + equation-based predictor combining a trained model with Framingham coefficients to calculate 10-year cardiovascular risk. |
+| **NFT**     | Personalized Book Journal | Developed a personal book tracking system with custom API routes, live updates, and aesthetic card-style UI. |
+| **NFT**     | Bookworms Social Review | Engineered a community book recommendation feature with randomization, replies, and searchable entries. |
+| **NFT**     | N@tM Showcased Project | Presented CSP work publicly at Night at the Museum, communicating full-stack logic and project goals to a live audience. |
+
 
 ## Homework Certification & Yearlong Practices
 
 - Completed all required tri-homework blogs with code examples and reflections  
-- All homeworks submitted thoughtfully on time, much information learnt
-- Used Khan Academy as a supplement tool to aid my learning and preparation for the 
+- All homeworks submitted thoughtfully and thoroughly on time, much information learnt that helped me prepare for the exam and expand my knowledge of CS Principles
+- Used Khan Academy as a supplement tool to aid my learning and preparation for the AP CSP exam
 - [Link to Homework Blog Trimester 1](soumini97.github.io/soumini_2025/big-idea-3-summary/)
 - [Link to Homework Blog Trimester 3](soumini97.github.io/soumini_2025/study-blog/)
 
@@ -123,9 +137,13 @@ permalink: /final-review-md/
   - Used voice recognition and AI to explain biotech concepts
   - Showed incredible creativity and user interaction quality
 
+### Pilot City: 
+As part of the Pilot City process, I had the chance to present my work on the trivia quiz and heart disease risk predictor to Derrick Lee. I explained how the projects combined machine learning and real-time user interaction, and in my interview, I talked about my interest in using technology to address educational disparities. That conversation helped me connect my technical work to a broader purpose, and I was grateful to be accepted into the Pilot City internship program to better explore how I can apply computer science to biotechnology. 
+
 
 ## GitHub Contributions & Stats!
 ![Contributions]({{ site.baseurl }}/images/contributions.png)
+![Analytics]({{ site.baseurl }}/images/analytics2.png)
 
 - **Issues**: Opened and tracked progress for every feature with checklists  
 - **Commits**: Documented code updates with detailed commit messages  
