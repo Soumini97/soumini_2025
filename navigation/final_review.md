@@ -5,12 +5,6 @@ permalink: /final-review-md/
 ---
 # CSP Full Year Reflection – Soumini Kandula
 
-> “Fun little culmination of everything I’ve learned this year, from JavaScript basics to full-stack engineering, from brainstorming with my team to presenting our final work at Night at the Museum.” - Soumini 
-
-
-## Key Interests & Coding Intersection:
-I am interested in pursuing scientific research and biotechnology. I am currently leading my iGEM team this year, which is an international genetic engineering competition. With this project, we're planning to engineer a bacterial circuit to control inflammation by detecting signs of inflammatory stress and produce an anti-inflammatory molecule in response. To do this project, we need proof of in-silico testing, which is basically computational modelling. I hope to use Machine Learning models and Python to complete my in-silico testing and model the effects of increased concentration of inflammatory stress on the bacterial circuit. 
-
 ## Trimester 3 – Final Sprint
 
 ### Illumina Interactive Biotech Projects
@@ -28,6 +22,8 @@ I am interested in pursuing scientific research and biotechnology. I am currentl
   - Software Engineering Practices: Planning changes, testing API endpoints, and building help documentation
   - Data Types: JSON objects, arrays, strings
   - Control Structures: Async functions, error handling
+  
+  ![Contributions]({{ site.baseurl }}/images/gemini.png)
 
 #### **2. 10-Year Heart Disease Risk Predictor**
 - **Overview**: Combines a machine learning model and Framingham study equation to calculate user health risk.
@@ -40,6 +36,8 @@ I am interested in pursuing scientific research and biotechnology. I am currentl
   - Data Management: Scaling, cleaning, analyzing large CSV datasets
   - ML Concepts: Multi-output regression, model training/testing
   - Operators: Mathematical expressions and boolean logic
+
+  ![Contributions]({{ site.baseurl }}/images/predict.png)
 
 
 ### Book Journal – Personal Project
@@ -83,7 +81,7 @@ I am interested in pursuing scientific research and biotechnology. I am currentl
   - Operators: Math and string manipulation
 
 
-### Key CS Principles Mastered This Year
+### Key CS Principles Learned This Year
 - **Data Types**: Numbers, strings, booleans, arrays, JSON, SQLite tables  
 - **Operators**: Arithmetic, string operations, boolean logic  
 - **Control Structures**: Iteration, conditionals, try/except, `.then()`/`.catch()`  
@@ -93,21 +91,8 @@ I am interested in pursuing scientific research and biotechnology. I am currentl
 - **SDLC**: GitHub flow (fork, branch, PR, merge), testing  
 - **Retrospective Practices**: Demos, reviews, presenting, reflecting  
 
-### Credentials: 
-| Type        | Credential / Project Name           | Description |
-|-------------|-------------------------------------|-------------|
-| **Certificate** | Tools Basics | Proficiency with GitHub, terminal usage, and structured version control through Issues, PRs, and commits. |
-| **Certificate** | Full Stack Development | Connected frontend interfaces with backend Flask APIs using async fetch, managing CRUD operations with SQLite. |
-| **Certificate** | Data Analysis with Python | Applied Pandas, NumPy, and statistical models to predict heart disease risk using real health datasets. |
-| **Certificate** | API Development | Designed and tested APIs for book journal, trivia quiz, and health risk prediction using Postman. |
-| **Certificate** | Control Structures Mastery | Demonstrated iteration, conditionals, nested logic, and try/except blocks in Python and JS codebases. |
-| **Certificate** | Data Types and Structures | Utilized numbers, strings, arrays, booleans, JSON, and SQLite tables in multi-layered web applications. |
-| **NFT**     | Biotech Trivia Generator | Designed a dynamic quiz engine that pulls bias-free questions from Gemini via a custom API. Demonstrated prompt engineering and data parsing. |
-| **NFT**     | Heart Disease Risk Model | Created a hybrid ML + equation-based predictor combining a trained model with Framingham coefficients to calculate 10-year cardiovascular risk. |
-| **NFT**     | Personalized Book Journal | Developed a personal book tracking system with custom API routes, live updates, and aesthetic card-style UI. |
-| **NFT**     | Bookworms Social Review | Engineered a community book recommendation feature with randomization, replies, and searchable entries. |
-| **NFT**     | N@tM Showcased Project | Presented CSP work publicly at Night at the Museum, communicating full-stack logic and project goals to a live audience. |
-
+### Credentials:
+![Contributions]({{ site.baseurl }}/images/credentials.png)
 
 ## Homework Certification & Yearlong Practices
 
@@ -148,3 +133,20 @@ As part of the Pilot City process, I had the chance to present my work on the tr
 - **Issues**: Opened and tracked progress for every feature with checklists  
 - **Commits**: Documented code updates with detailed commit messages  
 - **Burndown Charts**: Used to plan progress and check off milestones  
+
+
+
+### Credentials: 
+| Type        | Credential / Project Name           | Description |
+|-------------|-------------------------------------|-------------|
+| **Certificate** | Tools Basics | Proficiency with GitHub, terminal usage, and structured version control through Issues, PRs, and commits. |
+| **Certificate** | Full Stack Development | Connected frontend interfaces with backend Flask APIs using async fetch, managing CRUD operations with SQLite. |
+| **Certificate** | Data Analysis with Python | Applied Pandas, NumPy, and statistical models to predict heart disease risk using real health datasets. |
+| **Certificate** | API Development | Designed and tested APIs for book journal, trivia quiz, and health risk prediction using Postman. |
+| **Certificate** | Control Structures Mastery | Demonstrated iteration, conditionals, nested logic, and try/except blocks in Python and JS codebases. |
+| **Certificate** | Data Types and Structures | Utilized numbers, strings, arrays, booleans, JSON, and SQLite tables in multi-layered web applications. |
+| **NFT**     | Biotech Trivia Generator | Designed a dynamic quiz engine that pulls bias-free questions from Gemini via a custom API. Demonstrated prompt engineering and data parsing. |
+| **NFT**     | Heart Disease Risk Model | Created a hybrid ML + equation-based predictor combining a trained model with Framingham coefficients to calculate 10-year cardiovascular risk. |
+| **NFT**     | Personalized Book Journal | Developed a personal book tracking system with custom API routes, live updates, and aesthetic card-style UI. |
+| **NFT**     | Bookworms Social Review | Engineered a community book recommendation feature with randomization, replies, and searchable entries. |
+| **NFT**     | N@tM Showcased Project | Presented CSP work publicly at Night at the Museum, communicating full-stack logic and project goals to a live audience. |
