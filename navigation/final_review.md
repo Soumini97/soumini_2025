@@ -143,10 +143,6 @@ As part of the Pilot City process, I had the chance to present my work on the tr
 | **Certificate** | Full Stack Development | Connected frontend interfaces with backend Flask APIs using async fetch, managing CRUD operations with SQLite. |
 | **Certificate** | Data Analysis with Python | Applied Pandas, NumPy, and statistical models to predict heart disease risk using real health datasets. |
 | **Certificate** | API Development | Designed and tested APIs for book journal, trivia quiz, and health risk prediction using Postman. |
-| **Certificate** | Control Structures Mastery | Demonstrated iteration, conditionals, nested logic, and try/except blocks in Python and JS codebases. |
-| **Certificate** | Data Types and Structures | Utilized numbers, strings, arrays, booleans, JSON, and SQLite tables in multi-layered web applications. |
 | **NFT**     | Biotech Trivia Generator | Designed a dynamic quiz engine that pulls bias-free questions from Gemini via a custom API. Demonstrated prompt engineering and data parsing. |
 | **NFT**     | Heart Disease Risk Model | Created a hybrid ML + equation-based predictor combining a trained model with Framingham coefficients to calculate 10-year cardiovascular risk. |
 | **NFT**     | Personalized Book Journal | Developed a personal book tracking system with custom API routes, live updates, and aesthetic card-style UI. |
-| **NFT**     | Bookworms Social Review | Engineered a community book recommendation feature with randomization, replies, and searchable entries. |
-| **NFT**     | N@tM Showcased Project | Presented CSP work publicly at Night at the Museum, communicating full-stack logic and project goals to a live audience. |
